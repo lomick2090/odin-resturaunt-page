@@ -11,6 +11,8 @@ body {
     justify-content: center;
     background-color: black;
     color:white;
+    margin-bottom:80px;
+    font-size: 1.3em;
 }
 
 h1 {
@@ -19,6 +21,7 @@ h1 {
     z-index: 1;
     background-color: black;
     color:white;
+    font-size: 3em;
 }
 
 p {
@@ -38,19 +41,31 @@ p {
 }
 
 .aboutDiv, .hoursDiv {
-    padding: 40px;
+    padding: 80px;
     border: 2px solid black;
-    border-radius: 30%;
+    border-radius: 10%;
     position: relative;
-    width: 25vw;
     text-align: center;
     justify-self: center;
     z-index:1;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.474);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.aboutDiv {
+    font-size: 1.6em;
+    width: 40vw;
 }
 
 .hoursDiv {
     text-align: left;
+    width: 25vw;
+}
+
+.hoursDiv > ul {
+    padding-left: 20px;
 }
 
 .hoursDiv > li {
