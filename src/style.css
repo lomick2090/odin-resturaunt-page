@@ -15,7 +15,7 @@ body {
     font-size: 1.3em;
 }
 
-h1 {
+.title {
     text-align: center;
     position: relative;
     z-index: 1;
@@ -93,8 +93,48 @@ p {
     grid-auto-rows: 1fr;
 }
 
+.teamCard {
+    display: flex;
+    flex-direction: column;
+}
+
 .teamCards > div > img {
     width: 12vw;
     height: 16vw;
 }
 
+.teamCards > #card1 > p::before {
+    content: "Albert Grandburger, Head Chef";
+}
+
+.teamCards > #card2 > p::before {
+    content: "Kony Stahn, Su Chef";
+}
+
+.teamCards > #card3 > p::before {
+    content: "Lauren, Head Waitress";
+}
+
+.teamCards > #card4 > p::before {
+    content: "Dominique, Waitress";
+}
+
+.teamCards > #card5 > p::before {
+    content: "Grog Simon, Bartender";
+}
+
+.teamCards > #card6 > p::before {
+    content: "Lily, Barista/Bartender";
+}
+
+.teamCards > #card7 > p::before {
+    content: "Sammy Stone, Waitress";
+}
+
+.teamCards > #card8 > p::before {
+    content: "Alexandra, Waitress";
+}
+
+.teamCards > #card9 > p::before {
+    content: "Tiff, Waitress";
+}

@@ -53,10 +53,11 @@ export function createAboutUs(content) {
 
     for (let i=1; i<=9; i++) {
         let newTeamCard = document.createElement('div');
-        newTeamCard.id = i;
+        newTeamCard.className = 'teamCard';
+        newTeamCard.id = `card${i}`;
         let newTeamImg = document.createElement('img');
         newTeamImg.src = `./${i}.jpg`;
-        let newTeamAbout = document.createElement('div');
+        let newTeamAbout = document.createElement('p');
         newTeamCard.appendChild(newTeamImg);
         newTeamCard.appendChild(newTeamAbout);
         teamCards.appendChild(newTeamCard);
