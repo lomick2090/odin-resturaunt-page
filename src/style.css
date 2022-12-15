@@ -48,7 +48,7 @@ p {
     align-items: center;
 }
 
-.aboutDiv, .hoursDiv, .teamDiv {
+.aboutDiv, .hoursDiv, .teamDiv, .menuDiv {
     padding: 80px;
     border: 2px solid black;
     border-radius: 10%;
@@ -137,4 +137,76 @@ p {
 
 .teamCards > #card9 > p::before {
     content: "Tiff, Waitress";
+}
+
+.foodMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+.menuItem > img {
+    width: 25vw;
+    height: 40vh;
+}
+
+
+.menuItem#item1 > p::before {
+    content: 'Gnocci Salad';
+}
+
+.menuItem#item2 > p::before {
+    content: 'Cauliflower and Mixed Greens'
+}
+
+.menuItem#item3 > p::before {
+    content: 'Burrata Salad'
+}
+
+.menuItem#item4 > p::before {
+    content: 'Broccoli and Shrimp Salad'
+}
+
+.menuItem#item5 > p::before {
+    content: 'Bruschetta Sandwich'
+}
+
+.menuItem#item6 > p::before {
+    content: 'Spaghetti and Meatballs'
+}
+
+.menuItem#item7 > p::before {
+    content: 'Beef Bolognese'
+}
+
+.menuItem#item8 > p::before {
+    content: "Build your own pizza"
+}
+
+.menuItem#item9 > p::before {
+    content: '3 Meat Sandwich'
+}
+
+.menuItem#item10 > p::before {
+    content: 'Traditional Spaghetti'
+}
+
+.menuItem#item11 > p::before {
+    content: "Penne and Red Sauce"
+}
+
+.menuItem#item12 > p::before {
+    content: 'Shrimp Scampi'
+}
+
+.menuItem#item13 > p::before {
+    content: 'Seafood Paella'
+}
+
+.menuItem#item14 > p::before {
+    content: 'Mushroom Raviolis'
+}
+
+.menuItem#item15 > p::before {
+    content: 'Penne Carbonara'
 }
