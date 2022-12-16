@@ -40,7 +40,7 @@ p {
     z-index:0;
 }
 
-.aboutUsDiv {
+.aboutUsDiv, .liveDiv {
     padding: 10px;
     gap: 10px;
     display: flex;
@@ -48,7 +48,7 @@ p {
     align-items: center;
 }
 
-.aboutDiv, .hoursDiv, .teamDiv, .menuDiv {
+.aboutDiv, .hoursDiv, .teamDiv, .menuDiv, .liveAbout, .upcomingShows {
     padding: 80px;
     border: 2px solid black;
     border-radius: 10%;
@@ -62,12 +62,12 @@ p {
     font-weight: bold;
 }
 
-.aboutDiv {
+.aboutDiv, .liveAbout {
     font-size: 1.6em;
     width: 40vw;
 }
 
-.hoursDiv {
+.hoursDiv, .upcomingShows {
     text-align: left;
     width: 25vw;
 }

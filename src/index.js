@@ -14,7 +14,7 @@ function clicktab(tab) {
         createAboutUs(content);
     } else if (tab ==2 ) {
         createMenu(content);
-    } else if (tabe ==3) {
+    } else if (tab ==3) {
         createLive(content);
     }
 }
