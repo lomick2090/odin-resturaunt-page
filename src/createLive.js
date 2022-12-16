@@ -18,6 +18,11 @@ export function createLive(content) {
     let upcomingShows = document.createElement('ul');
     upcomingShows.className = 'upcomingShows';
 
+    let showsHeader = document.createElement('h2');
+    showsHeader.textContent = `Upcoming Shows:`
+    showsHeader.style = `text-align: center`
+    upcomingShows.appendChild(showsHeader);
+
     let li1 = document.createElement('li');
     li1.textContent = `Friday, Dec 17th 9pm - 2am: Guitarist, Rod Mullen`;
     let li2 = document.createElement('li');
